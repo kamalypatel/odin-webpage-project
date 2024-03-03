@@ -107,6 +107,8 @@ li {
     justify-content: center;
     width: 100%;
     background-color: #f9faf8;
+    padding-top: 20px;
+    padding-bottom: 80px;
 }
 
 .information {
@@ -115,10 +117,34 @@ li {
     align-items: center;
     background-color: #f9faf8;
     width: 80%;
-    gap: 15px;
+    gap: 20px;
+}
+
+.information h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
 
 .sections {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    gap: 35px;
+}
+
+.section-cards {
+    width: 150px;
+    text-align: center;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 3px solid #3882f6;
+}
+
+.section-cards p {
+    color: #1f2937;
 }
